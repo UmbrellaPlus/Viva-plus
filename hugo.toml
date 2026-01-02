@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://umbrellaplus.github.io/Viva-plus/'
 title = 'Viva Plus'
 relativeURLs = true
 enableRobotsTXT = true
