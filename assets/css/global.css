@@ -1,0 +1,55 @@
+/* roboto-regular - latin */
+/* download from here https://gwfh.mranftl.com/fonts/roboto?subsets=latin*/
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v50-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v50-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/roboto-v50-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --main: #0F3D2E;
+  --second: #1F6F54;
+  --accent: #A7D7C5;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  /* list-style: none; */
+  text-decoration: none;
+  color: black;
+}
+
+/* НИЖНЕЕ ОПИСАНИЕ */
+.bottom-descr {
+  margin: auto;
+  max-width: 70%;
+}
+.bottom-descr-container {
+  text-align: start;
+  line-height: 1.5rem;
+}
+@media (max-width: 768px) {
+  .bottom-descr {
+    max-width: 95%;
+  }
+}

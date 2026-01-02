@@ -1,0 +1,14 @@
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="{{.Params.description}}" />
+<title>{{.Params.tabTitle}}</title>
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}" />
+{{/* Styles */}}
+<link rel="preload"
+      href="/fonts/roboto-v50-latin-regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin>
+<link rel="stylesheet" href="/js/splide/dist/css/splide.min.css">
+{{partial "css.html" .}}

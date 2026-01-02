@@ -1,0 +1,2 @@
+1. promts for working directions
+a. Generate cartoon image where alcoholic with bottle of beer in full height is sitting in the left bottom corner and drinking it. Background has to have only one color which is #0F3D2E

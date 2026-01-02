@@ -1,0 +1,134 @@
+baseURL = ''
+title = 'Umbrella Plus'
+relativeURLs = true
+enableRobotsTXT = true
+defaultContentLanguage = "ru"
+defaultContentLanguageInSubdir = false
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[module]
+[[module.mounts]]
+    source = "content/ru-lang"
+    target = "content"
+    lang = "ru"
+[[module.mounts]]
+    source = "content/ua-lang"
+    target = "content"
+    lang = "uk"
+[[module.mounts]]
+    source = "content/shared"
+    target = "content"
+    lang = "ru"
+[[module.mounts]]
+    source = "content/shared"
+    target = "content"
+    lang = "uk"
+
+
+[languages]
+    [languages.ru]
+        contentDir = 'content/ru-lang'
+        languageCode = 'ru-UA'
+        languageName = 'RU'
+        weight = 10
+            [[languages.ru.menus.main]]
+                name = 'Услуги'
+                pageRef = '/services'
+                weight = 10
+                identifier = 'services'
+                    [[languages.ru.menus.main]]
+                        name = 'Лечение алкоголизма'
+                        pageRef = '/services'
+                        weight = 10
+                        parent = 'services'
+            [[languages.ru.menus.main]]
+                name = 'Врачи'
+                url = '/#doctors'
+                weight = 20
+                identifier = 'doctors'
+            [[languages.ru.menus.main]]
+                name = 'Блог'
+                pageRef = '/blog'
+                weight = 30
+            [[languages.ru.menus.main]]
+                name = 'Филиалы'
+                weight = 40
+                pageRef = '#'
+                identifier = 'filials'
+                    [[languages.ru.menus.main]]
+                        name = 'Харьков'
+                        pageRef = '/kharkiv'
+                        weight = 10
+                        parent = 'filials'
+            [[languages.ru.menus.main]]
+                name = 'Отзывы'
+                url = '/reviews'
+                weight = 50
+            [[languages.ru.menus.main]]
+                name = 'Дополнительно'
+                weight = 60
+                identifier = 'extra'
+                    [[languages.ru.menus.main]]
+                        name = 'О нас'
+                        pageRef = '/about-us'
+                        weight = 20
+                        parent = 'extra'
+                    [[languages.ru.menus.main]]
+                        name = 'Сотрудничество'
+                        pageRef = '/collaboration'
+                        weight = 30
+                        parent = 'extra'
+    [languages.uk]
+        contentDir = 'content/ua-lang'
+        languageCode = 'uk-UA'
+        languageName = 'UA'
+        weight = 20
+            [[languages.uk.menus.main]]
+                name = 'Послуги'
+                pageRef = '/services'
+                weight = 10
+            identifier = 'services'
+                    [[languages.uk.menus.main]]
+                        name = 'Лікування алкоголізму'
+                        pageRef = '/services'
+                        weight = 10
+                        parent = 'services'
+            [[languages.uk.menus.main]]
+                name = 'Лікарі'
+                url = '/uk/#doctors'
+                weight = 20
+                identifier = 'doctors'
+            [[languages.uk.menus.main]]
+                name = 'Блог'
+                pageRef = '/blog'
+                weight = 30
+            [[languages.uk.menus.main]]
+            name = 'Філіали'
+            weight = 30
+            identifier = 'filials'
+                    [[languages.uk.menus.main]]
+                        name = 'Харків'
+                        pageRef = '/kharkiv'
+                        weight = 10
+                        parent = 'filials'
+            [[languages.uk.menus.main]]
+                name = 'Відгуки'
+                url = '/uk/reviews'
+                weight = 50
+            [[languages.uk.menus.main]]
+                name = 'Додатково'
+                weight = 60
+                identifier = 'extra'
+                    [[languages.uk.menus.main]]
+                        name = 'Про нас'
+                        pageRef = '/about-us'
+                        weight = 20
+                        parent = 'extra'
+                    [[languages.uk.menus.main]]
+                        name = 'Співпраця'
+                        pageRef = '/collaboration'
+                        weight = 30
+                        parent = 'extra'

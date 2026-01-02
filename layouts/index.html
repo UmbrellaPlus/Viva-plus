@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{partial "sticky-phone.html"}} {{ partial "preheader.html"}} {{ partial
+    "header.html"}}
+
+    <main>
+      <div class="index-hero-text">
+        <h1>{{.Params.homeHeader}}</h1>
+        <p>
+          {{.Params.homeText1}} <br />
+          {{.Params.homeText2}} <br />
+          {{.Params.homeText3}} <br />
+        </p>
+        {{partial "telegram-form.html" . }}
+        <!-- {{ partial "cities-we-work.html" .}} -->
+        <!-- <div class="main-approval">
+          <p>Открыты с 2019 года. Более 5000 довольных клиентов.</p>
+        </div> -->
+      </div>
+      <div class="index-main-image">
+        {{$mob := resources.Get .Params.mainmob}} {{$pc := resources.Get
+        .Params.mainpc}}
+        <picture>
+          <source media="(max-width: 1000px)" srcset="{{$mob.RelPermalink}}" />
+          <img src="{{$pc.RelPermalink}}" alt="pc-version-main" />
+        </picture>
+      </div>
+    </main>
+
+    {{/*
+    <div class="discounts-block-slider">
+      <h2>Акции и предложения</h2>
+      <section id="homepage_carousel" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {{range where site.RegularPages "Type" "homepage"}}
+            <li class="discounts-block splide__slide">
+              <div class="discounts-image">
+                <a href="{{.Params.link}}">
+                  <picture>
+                    {{$discPhone := resources.Get .Params.imagephone}} {{$discPC
+                    := resources.Get .Params.imagepc}}
+                    <source
+                      media="(max-width: 720px)"
+                      srcset="{{$discPhone.RelPermalink}}"
+                    />
+                    <img
+                      src="{{$discPC.RelPermalink}}"
+                      alt="pc-version-main"
+                    /> </picture
+                ></a>
+              </div>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </section>
+    </div>
+    */}}
+
+    <!-- О нашей задаче -->
+    <div class="about-clinic-background">
+      <div class="about-clinic">
+        <div class="clinic-description">{{.Content}}</div>
+        <div class="clinic-img">
+          {{$doctor := resources.Get .Params.imageDoctor}}
+          <img
+            class="preview"
+            src="{{$doctor.RelPermalink}}"
+            alt="clinic-pic"
+          />
+          <p>
+            <b>{{.Params.doctorName}}</b> <br />
+            {{.Params.doctorDescr}}
+          </p>
+        </div>
+      </div>
+    </div>
+    {{/* Направления нашей работы */}}
+
+    <div class="directions">
+      <div class="directions-header-text">
+        <h2>Основные направления нашей работы</h2>
+        <p>
+          В Viva Plus мы комплекстно подходим к лечению и восстановлению вашего
+          здоровья
+        </p>
+      </div>
+      <div>
+        <section id="directions-carousel" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li
+                class="directions-block splide__slide"
+                style="background-color: var(--main)"
+              >
+                <div>
+                  <div class="directions-text">
+                    <h3>Лечение алкоголизма</h3>
+                    <p>Лечение длительного запоя, капельницы, кодировка</p>
+                  </div>
+                  <div class="directions-image">
+                    <img
+                      class="directions-main-img"
+                      src="/img/treatment-directions/directions1.png"
+                      alt=""
+                    />
+                    <img
+                      class="directions-share-img"
+                      src="/img/treatment-directions/share1.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </li>
+              <li
+                class="directions-block splide__slide"
+                style="background-color: var(--second)"
+              >
+                <div>
+                  <div class="directions-text">
+                    <h3>Лечение наркомании</h3>
+                    <p>Детоксикация, снятие ломки, реабилитация</p>
+                  </div>
+                  <div class="directions-image">
+                    <img
+                      class="directions-main-img"
+                      src="/img/treatment-directions/directions2.png"
+                      alt=""
+                    />
+
+                    <img
+                      class="directions-share-img"
+                      src="/img/treatment-directions/share2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </li>
+              <li
+                class="directions-block splide__slide"
+                style="background-color: var(--main)"
+              >
+                <div>
+                  <div class="directions-text">
+                    <h3>Вывод из запоя</h3>
+                    <p>
+                      Работаем по последним рекомендациям, безопасно и
+                      эффективно
+                    </p>
+                  </div>
+                  <div class="directions-image">
+                    <img
+                      class="directions-main-img"
+                      src="/img/treatment-directions/directions3.png"
+                      alt=""
+                    />
+                    <img
+                      class="directions-share-img"
+                      src="/img/treatment-directions/share1.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </li>
+              <li
+                class="directions-block splide__slide"
+                style="background-color: var(--second)"
+              >
+                <div>
+                  <div class="directions-text">
+                    <h3>Психиатрия</h3>
+                    <p>
+                      Поможем разобратся в причинах зависимостей, справится со
+                      стрессом
+                    </p>
+                  </div>
+                  <div class="directions-image">
+                    <img
+                      class="directions-main-img"
+                      src="/img/treatment-directions/directions4.png"
+                      alt=""
+                    />
+                    <img
+                      class="directions-share-img"
+                      src="/img/treatment-directions/share2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+    {{/* Этапы лечения */}}
+
+    <div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <!-- Приемущества -->
+
+    <div class="benefits">
+      <div class="benefits-сontainer">
+        <div class="benefits-block">
+          <img src="/img/home-page/anonymous.png" alt="anonymous" />
+          <p class="benefits-blocktitle">Анонимность</p>
+          <p class="benefits-descrip">
+            Конфиденциальность – наш приоритет. Мы гарантируем, что ваши данные
+            останутся в безопасности.
+          </p>
+        </div>
+        <div class="benefits-block">
+          <img src="/img/home-page/coupon.png" alt="budget-services" />
+          <p class="benefits-blocktitle">Доступные цены</p>
+          <p class="benefits-descrip">
+            Мы понимаем сложную экономическую ситуацию в стране и стремимся
+            сделать наши услуги доступными.
+          </p>
+        </div>
+        <div class="benefits-block">
+          <img src="/img/home-page/shuttle.png" alt="home-arrival" />
+          <p class="benefits-blocktitle">Выезд на дом</p>
+          <p class="benefits-descrip">
+            Наш врач прибудет к вам в течение 40 минут после вызова. Наши врачи
+            всегда имеют при себе все необходимое оборудовние и медикаменты.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {{partial "doctors-slider.html"}}
+
+    <!-- Отзывы -->
+    <div style="text-align: center; padding: 1rem">
+      <h2>Отзывы о нашей работе</h2>
+    </div>
+    {{partial "google-reviews.html" . }} {{/*
+    <div class="reviews-disclaimer">
+      <a id="openDialog"
+        ><p>Нажмите если желаете оставить анонимный отзыв</p></a
+      >
+      {{partial "reviews-dialog.html"}}
+    </div>
+    */}} {{/* Города в которых мы работаем */}}
+    <!-- Наши партнеры -->
+    {{/*  <div class="partners-carousel-container">
+      <h2>Наши партнеры</h2>
+      <section id="partners-carousel" class="splide">
+        <div class="splide__track">
+          <ul class="partners-block-container splide__list">
+            <li class="partner splide__slide">
+              <img src="/img/partners/partner-synevo.webp" alt="Synevo" />
+            </li>
+            <li class="partner splide__slide">
+              <img src="/img/partners/partner-analitika.webp" alt="Analitika" />
+            </li>
+            <li class="partner splide__slide">
+              <img src="/img/partners/partner-invivo.webp" alt="Invivo" />
+            </li>
+            <li class="partner splide__slide">
+              <img src="/img/partners/partner-smartlab.webp" alt="Smartlab" />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    {{partial "cities-carousel.html" .}} {{ partial "latest-news.html" .}}  */}}
+    {{partial "contacts.html" . }} {{partial "footer.html" .}}
+  </body>
+</html>

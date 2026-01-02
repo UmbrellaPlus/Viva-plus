@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    {{partial "sticky-phone.html"}} {{ partial "preheader-ua.html"}} {{ partial
+    "header.html"}}
+    <main>
+      <div class="index-hero-text">
+        <h1>{{.Params.homeHeader}}<br /></h1>
+        <p>
+          {{.Params.homeText1}} <br />{{.Params.homeText2}}
+          <br />{{.Params.homeText3}}
+          <br />
+        </p>
+        {{partial "telegram-form-ua.html" . }}
+        <!-- {{partial "cities-we-work-ua.html" }}
+        <div class="main-approval">
+          <p>Відкриті з 2019 року. Понад 5000 задоволених клієнтів.</p>
+        </div> -->
+      </div>
+      <div class="index-main-image">
+        {{$mob := resources.Get .Params.mainmob}} {{$pc := resources.Get
+        .Params.mainpc}}
+        <picture>
+          <source media="(max-width: 1000px)" srcset="{{$mob.RelPermalink}}" />
+          <img src="{{$pc.RelPermalink}}" alt="pc-version-main" />
+        </picture>
+      </div>
+    </main>
+
+    <div class="discounts-block-slider">
+      <h2>Акції та пропозиції</h2>
+      <section id="homepage_carousel" class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+            {{range where site.RegularPages "Type" "homepage"}}
+            <li class="discounts-block splide__slide">
+              <div class="discounts-image">
+                <a href="{{.Params.link}}">
+                  <picture>
+                    {{$discPhone := resources.Get .Params.imagephone}} {{$discPC
+                    := resources.Get .Params.imagepc}}
+                    <source
+                      media="(max-width: 720px)"
+                      srcset="{{$discPhone.RelPermalink}}"
+                    />
+                    <img
+                      src="{{$discPC.RelPermalink}}"
+                      alt="pc-version-main"
+                    /> </picture
+                ></a>
+              </div>
+            </li>
+            {{end}}
+          </ul>
+        </div>
+      </section>
+    </div>
+    <!-- О нашей задаче -->
+
+    <div class="about-clinic">
+      <div class="clinic-description">{{.Content}}</div>
+      <div class="clinic-img">
+        {{$doctor := resources.Get .Params.imageDoctor}}
+        <img class="preview" src="{{$doctor.RelPermalink}}" alt="clinic-pic" />
+        <p>
+          <b>{{.Params.doctorName}}</b> <br />
+          {{.Params.doctorDescr}}
+        </p>
+      </div>
+    </div>
+
+    <!-- Приемущества -->
+    <div class="benefits">
+      <h2>У 80% випадків вистачає однієї крапельниці, щоб зупинити запій</h2>
+      <div class="benefits-сontainer">
+        <div class="benefits-block">
+          <p class="benefits-blocktitle">
+            <img src="/img/home-page/unknown.png" alt="anonymous" /> Анонімність
+          </p>
+          <p class="benefits-descrip">
+            Конфіденційність – наш пріоритет. Ми суворо дотримуємося медичної
+            таємницю та гарантуємо, що ваші дані залишаться в безпеці.
+            Звернувшись до нас, ви можете бути впевнені, що інформація не
+            потрапить до державних реєстрів.
+          </p>
+        </div>
+        <div class="benefits-block">
+          <p class="benefits-blocktitle">
+            <img src="/img/home-page/medical-team.png" alt="free-ecg" />
+            Професіонали
+          </p>
+          <p class="benefits-descrip">
+            Ми – досвідчена команда лікарів різних спеціальностей, які постійно
+            підвищують свою кваліфікацію. Наші лікарі – справжні професіонали,
+            готові допомогти у будь-якій ситуації.
+          </p>
+        </div>
+        <div class="benefits-block">
+          <p class="benefits-blocktitle">
+            <img src="/img/home-page/piggy-bank.png" alt="budget-services" />
+            Доступні ціни
+          </p>
+          <p class="benefits-descrip">
+            Ми розуміємо складну економічну ситуацію в країні та прагнемо
+            зробити наші послуги доступними. Високий попит дозволяє нам
+            пропонувати ціни нижче за ринкові.
+            <b>Для військовослужбовців та їхніх сімей передбачені знижки.</b>
+          </p>
+        </div>
+        <div class="benefits-block">
+          <p class="benefits-blocktitle">
+            <img src="/img/home-page/home.png" alt="home-arrival" /> Виїзд на
+            будинок
+          </p>
+          <p class="benefits-descrip">
+            Наш лікар прибуде до вас протягом 60 хвилин після дзвінка. на
+            екстрені виклики виїжджають лише фахівці – реаніматологи, наркологи
+            чи лікарі невідкладних станів. Ми надаємо якісну допомогу, і наші
+            лікарі завжди мають при собі все необхідні медикаменти.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {{partial "doctors-slider-ua.html"}} {{/* Отзывы */}}
+
+    <div style="text-align: center; padding: 1rem">
+      <h2>Вiдгуки про нашу роботу</h2>
+    </div>
+    {{partial "google-reviews.html" . }}
+    <!-- Наши партнеры -->
+    <div class="partners-carousel-container">
+      <h2>Наші партнери</h2>
+      <section id="partners-carousel" class="splide">
+        <div class="splide__track">
+          <ul class="partners-block-container splide__list">
+            <li class="partner splide__slide">
+              <img src="/img/partners/partner-synevo.webp" alt="Synevo" />
+            </li>
+            <li class="partner splide__slide">
+              <img src="/img/partners/partner-analitika.webp" alt="Analitika" />
+            </li>
+            <li class="partner splide__slide">
+              <img src="/img/partners/partner-invivo.webp" alt="Invivo" />
+            </li>
+            <li class="partner splide__slide">
+              <img src="/img/partners/partner-smartlab.webp" alt="Smartlab" />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    {{partial "cities-carousel-ua.html"}} {{ partial "latest-news-ua.html" .}}
+    {{partial "contacts-ua.html" . }} {{partial "footer.html" .}}
+  </body>
+</html>

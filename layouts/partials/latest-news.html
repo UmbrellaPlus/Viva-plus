@@ -1,0 +1,30 @@
+<div class="latest-news-container">
+  <h2>Актульные новости</h2>
+  <section id="latest-news" class="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {{ range first 3 (where .Site.RegularPages "Type" "blog") }}
+        <li class="latest-news-card splide__slide">
+          <p>
+            <a href="{{ .RelPermalink }}">
+              {{with .Params.image}} {{with resources.Get .}} {{with .Resize
+              "300x webp q50"}}
+              <img
+                class="latest-news-image"
+                src="{{.RelPermalink}}"
+                alt="blog-article-picture"
+              />
+              {{end}} {{end}} {{end}}
+              <p class="latest-news-title"><b>{{ .Title }}</b></p>
+              <p class="date">
+                Дата публикации: {{ .Date | time.Format ":date_long" }}
+              </p>
+            </a>
+          </p>
+        </li>
+
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+</div>

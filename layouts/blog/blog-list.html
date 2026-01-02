@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-P7NR5N9F"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    {{partial "sticky-phone.html"}} {{if in .Site.Language "ru"}} {{partial
+    "preheader.html" . }} {{ else }} {{partial "preheader-ua.html" . }}{{end}}
+    {{ partial "header.html"}}
+    <div class="blog-padding">
+      {{if in .Site.Language "ru"}}
+      <h1>Лечение зависимостей</h1>
+      <h2>Последние статьи</h2>
+      {{ else }}
+      <h1>Лікування залежностей</h1>
+      <h2>Останні статті</h2>
+      {{end}}
+
+<ul class="blog-list-container">
+  {{ range sort (where site.RegularPages "Type" "blog") "Date" "desc" }}
+    <a href="{{ .Permalink }}">
+      <li class="blog-list-post">
+        <div class="blog-list-post-text-container">
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Params.Description }}</p>
+        </div>
+                      {{with .Params.image}} {{with resources.Get .}} {{with .Resize
+              "300x webp q50"}}
+              <img
+                src="{{.RelPermalink}}"
+                alt="{{.Params.imageText}}"
+              />
+              {{end}} {{end}} {{end}}
+      </li>
+    </a>
+  {{ end }}
+</ul>
+
+    </div>
+    {{if in .Site.Language "ru"}} {{partial "contacts.html" . }} {{ else }}
+    {{partial "contacts-ua.html" . }} {{end}} {{partial "footer.html" .}}
+  </body>
+</html>
