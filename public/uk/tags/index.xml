@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Viva Plus</title>
-    <link>https://umbrellaplus.github.io/Viva-plus/uk/tags/</link>
+    <link>https://umbrellaplus.github.io/uk/tags/</link>
     <description>Recent content in Tags on Viva Plus</description>
     <generator>Hugo</generator>
     <language>uk-UA</language>
-    <atom:link href="https://umbrellaplus.github.io/Viva-plus/uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://umbrellaplus.github.io/uk/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

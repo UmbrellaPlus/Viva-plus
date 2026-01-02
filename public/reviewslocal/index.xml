@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ReviewsLocals on Viva Plus</title>
-    <link>https://umbrellaplus.github.io/Viva-plus/reviewslocal/</link>
+    <link>https://umbrellaplus.github.io/reviewslocal/</link>
     <description>Recent content in ReviewsLocals on Viva Plus</description>
     <generator>Hugo</generator>
     <language>ru-UA</language>
-    <atom:link href="https://umbrellaplus.github.io/Viva-plus/reviewslocal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://umbrellaplus.github.io/reviewslocal/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
