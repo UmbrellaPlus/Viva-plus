@@ -1,6 +1,6 @@
 baseURL = 'https://umbrellaplus.github.io/'
 title = 'Viva Plus'
-relativeURLs = true
+relativeURLs = false
 enableRobotsTXT = true
 defaultContentLanguage = "ru"
 defaultContentLanguageInSubdir = false
