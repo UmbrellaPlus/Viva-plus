@@ -4,9 +4,9 @@ homeHeader: Viva Plus | Центр лечения зависимостей
 homeText1: ✔️ Леченим алкоголизм более 10 лет
 homeText2: ✔️ Более 10 филиалов по всей стране
 homeText3: ✔️ Срочный выезд нарколога на дом
-mainpc: ./img/MAIN/main-pc-ru.jpg
-mainmob: ./img/MAIN/main-mob-ru.jpg
-imageDoctor: ./img/main-doc.jpg
+mainpc: /img/MAIN/main-pc-ru.jpg
+mainmob: /img/MAIN/main-mob-ru.jpg
+imageDoctor: /img/main-doc.jpg
 doctorName: Робулец Олег Григорьевич
 doctorDescr: "Ведущий нарколог, специалист с многолетним опытом"
 ---
