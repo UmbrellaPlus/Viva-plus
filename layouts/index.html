@@ -6,65 +6,67 @@
   <body>
     {{partial "sticky-phone.html"}} {{ partial "preheader.html"}} {{ partial
     "header.html"}}
-
-    <div class="padding-main"></div>
-    <main>
-      <div class="index-hero-text">
-        <h1>{{.Params.homeHeader}}</h1>
-        <p>
-          {{.Params.homeText1}} <br />
-          {{.Params.homeText2}} <br />
-          {{.Params.homeText3}} <br />
-        </p>
-        {{partial "telegram-form.html" . }}
-        <!-- {{ partial "cities-we-work.html" .}} -->
-        <!-- <div class="main-approval">
+    <div class="about-clinic-background">
+      <div class="padding-main"></div>
+      <main>
+        <div class="index-hero-text">
+          <h1>{{.Params.homeHeader}}</h1>
+          <p>
+            {{.Params.homeText1}} <br />
+            {{.Params.homeText2}} <br />
+            {{.Params.homeText3}} <br />
+          </p>
+          {{partial "telegram-form.html" . }}
+          <!-- {{ partial "cities-we-work.html" .}} -->
+          <!-- <div class="main-approval">
           <p>Открыты с 2019 года. Более 5000 довольных клиентов.</p>
         </div> -->
-      </div>
-      <div class="index-main-image">
-        {{$mob := resources.Get .Params.mainmob}} {{$pc := resources.Get
-        .Params.mainpc}}
-        <picture>
-          <source media="(max-width: 1000px)" srcset="{{$mob.RelPermalink}}" />
-          <img src="{{$pc.RelPermalink}}" alt="pc-version-main" />
-        </picture>
-      </div>
-    </main>
-
-    {{/*
-    <div class="discounts-block-slider">
-      <h2>Акции и предложения</h2>
-      <section id="homepage_carousel" class="splide">
-        <div class="splide__track">
-          <ul class="splide__list">
-            {{range where site.RegularPages "Type" "homepage"}}
-            <li class="discounts-block splide__slide">
-              <div class="discounts-image">
-                <a href="{{.Params.link}}">
-                  <picture>
-                    {{$discPhone := resources.Get .Params.imagephone}} {{$discPC
-                    := resources.Get .Params.imagepc}}
-                    <source
-                      media="(max-width: 720px)"
-                      srcset="{{$discPhone.RelPermalink}}"
-                    />
-                    <img
-                      src="{{$discPC.RelPermalink}}"
-                      alt="pc-version-main"
-                    /> </picture
-                ></a>
-              </div>
-            </li>
-            {{end}}
-          </ul>
         </div>
-      </section>
-    </div>
-    */}}
+        <div class="index-main-image">
+          {{$mob := resources.Get .Params.mainmob}} {{$pc := resources.Get
+          .Params.mainpc}}
+          <picture>
+            <source
+              media="(max-width: 1000px)"
+              srcset="{{$mob.RelPermalink}}"
+            />
+            <img src="{{$pc.RelPermalink}}" alt="pc-version-main" />
+          </picture>
+        </div>
+      </main>
 
-    <!-- О нашей задаче -->
-    <div class="about-clinic-background">
+      {{/*
+      <div class="discounts-block-slider">
+        <h2>Акции и предложения</h2>
+        <section id="homepage_carousel" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              {{range where site.RegularPages "Type" "homepage"}}
+              <li class="discounts-block splide__slide">
+                <div class="discounts-image">
+                  <a href="{{.Params.link}}">
+                    <picture>
+                      {{$discPhone := resources.Get .Params.imagephone}}
+                      {{$discPC := resources.Get .Params.imagepc}}
+                      <source
+                        media="(max-width: 720px)"
+                        srcset="{{$discPhone.RelPermalink}}"
+                      />
+                      <img
+                        src="{{$discPC.RelPermalink}}"
+                        alt="pc-version-main"
+                      /> </picture
+                  ></a>
+                </div>
+              </li>
+              {{end}}
+            </ul>
+          </div>
+        </section>
+      </div>
+      */}}
+
+      <!-- О нашей задаче -->
       <div class="about-clinic">
         <div class="clinic-description">{{.Content}}</div>
         <div class="clinic-img">
@@ -202,10 +204,14 @@
 
     {{/* Убедим лечится */}}
     <div class="convince">
-      <div class="convince-image"><img src="/img/doc-with-stetho.png" alt="doc-with-stetho" /></div>
+      <div class="convince-image">
+        <img src="/img/doc-with-stetho.png" alt="doc-with-stetho" />
+      </div>
       <div class="convince-content">
         <h2>Убедим пациента со сниженной мотивацией</h2>
-        <p>Все наши сотрудники проходят обучение у лицензированного психолога</p>
+        <p>
+          Все наши сотрудники проходят обучение у лицензированного психолога
+        </p>
         <a href="">Получить консультацию</a>
       </div>
     </div>

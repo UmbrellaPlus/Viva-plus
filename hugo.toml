@@ -48,20 +48,69 @@ defaultContentLanguageInSubdir = false
                         pageRef = '/vivod-iz-zapoya'
                         weight = 20
                         parent = 'services'
+                    [[languages.ru.menus.main]]
+                        name = 'Экстренный вызов нарколога'
+                        pageRef = '/nargolog'
+                        weight = 30
+                        parent = 'services'
+                    [[languages.ru.menus.main]]
+                        name = 'Капельница от алкоголя'
+                        pageRef = '/kapelnitsya-ot-alkogolya'
+                        weight = 40
+                        parent = 'services'
+                    [[languages.ru.menus.main]]
+                        name = 'Лечение пивного алкоголизма'
+                        pageRef = '/lechenie-pivnogo-alkogolizma'
+                        weight = 50
+                        parent = 'services'
             [[languages.ru.menus.main]]
                 name = 'Наркомания'
                 weight = 20
                 identifier = 'narcology'
                     [[languages.ru.menus.main]]
-                    name = 'Детоксикация'
-                    pageRef = '/detox'
-                    weight = 10
-                    parent = 'narcology'
+                        name = 'Лечение наркомании'
+                        pageRef = '/lechenie-narkomanii'
+                        weight = 10
+                        parent = 'narcology'
+                    [[languages.ru.menus.main]]
+                        name = 'Детоксикация от метадона'
+                        pageRef = '/detox-ot-metadona'
+                        weight = 20
+                        parent = 'narcology'
+                    [[languages.ru.menus.main]]
+                        name = 'Детоксикация от налбуфина'
+                        pageRef = '/detox-ot-nalbufina'
+                        weight = 30
+                        parent = 'narcology'
+                    [[languages.ru.menus.main]]
+                        name = 'Детоксикация от кокаина'
+                        pageRef = '/detox-on-kokaina'
+                        weight = 40
+                        parent = 'narcology'
+                    [[languages.ru.menus.main]]
+                        name = 'Детоксикация от лирики'
+                        pageRef = '/detox-ot-liriki'
+                        weight = 50
+                        parent = 'narcology'
             [[languages.ru.menus.main]]
                 name = 'Кодирование'
-                pageRef = '/kodirovanie'
-                weight = 25
+                weight = 30
                 identifier = 'kodirovanie'
+                [[languages.ru.menus.main]]
+                    name = 'Кодирование от алкоголизма таблетки Тетурам'
+                    pageRef = '/kodirovanie-teturam'
+                    weight = 10
+                    parent = 'kodirovanie'
+                [[languages.ru.menus.main]]
+                    name = 'Кодирование от алкоголизма Капли Мидзо'
+                    pageRef = '/kodirovanie-midzo'
+                    weight = 20
+                    parent = 'kodirovanie'
+                [[languages.ru.menus.main]]
+                    name = 'Кодирование от алкоголизма укол Дисульфирам'
+                    pageRef = '/kodirovanie-disulfiram'
+                    weight = 30
+                    parent = 'kodirovanie'
             [[languages.ru.menus.main]]
                 name = 'Филиалы'
                 weight = 40

@@ -97,44 +97,11 @@ nav a img {
   width: 100%;
   padding: 0.2rem;
 }
-#extra-list {
+#services-list, #narcology-list, #kodirovanie-list, #filials-list, #extra-list {
   display: none;
   list-style: none;
 }
-#extra-list.active {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 1rem;
-  margin-left:1rem;
-}
-#filials-list{
-  display: none;
-  list-style: none;
-}
-#filials-list.active {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 1rem;
-  margin-left:1rem;
-}
-#services-list {
-  display: none;
-  list-style: none;
-}
-#services-list.active {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 1rem;
-  margin-left:1rem;
-}
-#narcology-list {
-  display: none;
-  list-style: none;
-}
-#narcology-list.active {
+#services-list.active, #narcology-list.active, #kodirovanie-list.active, #filials-list.active, #extra-list.active {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -170,58 +137,32 @@ nav a img {
     cursor: pointer;
   }
   #filials:hover + #filials-list,
-  #filials-list:hover {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    position: absolute;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    top: 3.25rem;
-    left:0;
-    width: 100%;
-    padding: 1rem 8rem;
-  }
+  #filials-list:hover,
   #services:hover + #services-list,
-  #services-list:hover  {
+  #services-list:hover,
+    #extra:hover + #extra-list,
+  #extra-list:hover,
+    #narcology:hover + #narcology-list,
+  #narcology-list:hover,
+  #kodirovanie:hover + #kodirovanie-list,
+  #kodirovanie-list:hover
+    {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     position: absolute;
     background-color: whitesmoke;
+    border: 1px solid var(--accent);
+    height: 15rem;
     border-radius: 10px;
     top: 3.25rem;
     left:0;
-    width: 100%;
+    right: 0;
+    width: 98%;
     padding: 1rem 8rem;
+    margin: 0 auto;
   }
   #extra{
   display: none;
 }
-  #extra:hover + #extra-list,
-  #extra-list:hover {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    position: absolute;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    top: 3.25rem;
-    width: 100%;
-    left:0;
-    padding: 1rem 8rem;
-  }
-  #narcology:hover + #narcology-list,
-  #narcology-list:hover {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    position: absolute;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    top: 3.25rem;
-    left:0; 
-    width: 100%;
-    padding: 1rem 8rem;
-  }
 }
