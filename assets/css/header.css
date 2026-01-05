@@ -3,7 +3,7 @@
 }
 .line {
   display: block;
-  background-color: black;
+  background-color: var(--text);
   height: 3px;
   width: 25px;
   margin: 5px auto;
@@ -89,6 +89,7 @@ nav a img {
   list-style: none;
   overflow-y: auto;
   border-radius: 15px;
+    color:var(--text)
 }
 #nav-links.active {
   display: flex;

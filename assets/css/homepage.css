@@ -97,28 +97,26 @@ width: 25rem;
   max-width: 95%;
   margin: auto;
   z-index: 1000;
+  padding:2rem;
+}
+.clinic-description{
+  display: flex;
+  justify-content: space-around;
 }
 .clinic-description h2 {
-  padding: 1.5em 0;
-  font-weight: 500;
-  display: inline-block;
+  padding: 0 0;
+  font-weight: 600;
   position: relative;
-  font-size: 23px;
-  z-index: 1;
+  font-size: 2rem;
 }
-.clinic-description h2::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 30px;
-  border-radius: 10px;
-  background-color: var(--second);
-  left: 0px;
+.ab-cl-quote{
+  display: inline-block;
+  font-size: 4rem;
+  color: var(--accent);
+  margin-right: 0.5rem;
 }
-.clinic-description p {
-  line-height: 1.6rem;
-  gap: 4rem;
+.ab-cl-quote:nth-child(3){
+  align-self: flex-end;
 }
 .clinic-img {
   width: auto;
@@ -129,15 +127,17 @@ width: 25rem;
   padding: 1em;
   flex-direction: column;
 }
+.ab-cl-doc-name{
+  font-size: 1.5rem;
+}
 .clinic-img p {
   width: 60%;
   margin-top: 1rem;
+  color: gray
 }
 .clinic-img img {
   object-fit: contain;
-  width: 30%;
-  box-shadow: -7px 7px 0px var(--blue);
-  border-radius: 0px 10px 0px 0px;
+  width: 60%;
 }
 @media (min-width: 1000px) {
   .about-clinic {
@@ -147,6 +147,10 @@ width: 25rem;
   }
   .about-clinic > * {
     flex: 1;
+  }
+  .clinic-description h2{
+    font-size: 3rem;
+    align-self:center ;
   }
   .clinic-img {
     margin-top: 1em;

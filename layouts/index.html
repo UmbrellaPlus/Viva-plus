@@ -68,7 +68,9 @@
 
       <!-- О нашей задаче -->
       <div class="about-clinic">
-        <div class="clinic-description">{{.Content}}</div>
+        <div class="clinic-description">
+          <span class="ab-cl-quote">❛❛</span>{{.Content}}<span class="ab-cl-quote">❜❜</span>
+        </div>
         <div class="clinic-img">
           {{$doctor := resources.Get .Params.imageDoctor}}
           <img
@@ -77,7 +79,7 @@
             alt="clinic-pic"
           />
           <p>
-            <b>{{.Params.doctorName}}</b> <br />
+            <b class="ab-cl-doc-name">{{.Params.doctorName}}</b> <br />
             {{.Params.doctorDescr}}
           </p>
         </div>
@@ -127,7 +129,7 @@
                 <div>
                   <div class="directions-text">
                     <h3>Лечение наркомании</h3>
-                    <p>Детоксикация, снятие ломки, реабилитация</p>
+                    <p>Срочная детоксикация, снятие ломки, реабилитация</p>
                   </div>
                   <div class="directions-image">
                     <img

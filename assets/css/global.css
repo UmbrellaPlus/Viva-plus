@@ -28,6 +28,8 @@
   --main: #0F3D2E;
   --second: #1F6F54;
   --accent: #A7D7C5;
+  --whitetext: #FFF;
+  --whitebackground: #FFFFFF;
 }
 * {
   padding: 0;
@@ -36,7 +38,7 @@
   font-family: "Roboto", sans-serif;
   /* list-style: none; */
   text-decoration: none;
-  color: black;
+  color: #222;
 }
 
 /* НИЖНЕЕ ОПИСАНИЕ */

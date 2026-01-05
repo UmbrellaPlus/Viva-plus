@@ -43,13 +43,13 @@ document.addEventListener("DOMContentLoaded", function () {
     perPage: 4,
     breakpoints: {
       1280: {
-        perPage: 2,
+        perPage: 1,
       },
       1640: {
-        perPage: 3,
+        perPage: 2,
       },
       1920: {
-        perPage: 4,
+        perPage: 3,
       },
     },
   }).mount();

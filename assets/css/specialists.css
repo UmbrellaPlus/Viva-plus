@@ -1,19 +1,17 @@
 /* Наши спецалисты */
-.doctors-container {
-  max-width: 70vw;
-  height:auto;
-  padding-bottom: 2em;
-  overflow-x: hidden;
-  margin: auto;
-}
+
 .doctors {
   margin: auto;
   text-align: center;
+  background-color: var(--main);
+  margin:3rem 0;
+  border-radius: 2rem;
 }
 .doctors h2 {
   padding: 1em 0em;
   display: inline-block;
   position: relative;
+  color: var(--whitetext)
 }
 .doctors h2::after {
   content: "";
@@ -25,25 +23,50 @@
   background-color: var(--second);
   left: 0px;
 }
+.doctors-container {
+  max-width: 70vw;
+  height:auto;
+  padding-bottom: 2em;
+  overflow-x: hidden;
+  margin: auto;
+}
 /* swiper-slide */
 .doctor-block {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: var(--whitebackground);
+  border-radius: 1.5rem;
 }
-.doctor-block img {
-  object-fit: fill;
-  height: auto;
-  width: 90%;
-  box-shadow: -3px 3px 0px var(--blue);
-  border-radius: 0 10px 0 0;
-  margin-bottom:10px;
+.doctors-photo-exp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.doctors-photo-container {
+  display: inline-block;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  top:-2rem;
+  position: relative;
+  z-index: 100;
+}
+.doctors-photo-container img {
+  object-fit:cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
 .doctor-name{
   font-size: 1.2rem;
   font-weight: 600;
-  color: var(--blue)
+  color: var(--whitetext)
+}
+.doctor-descr{
+  color: var(--whitetext)
 }
 @media (max-width: 768px) {
   .doctors-container{
