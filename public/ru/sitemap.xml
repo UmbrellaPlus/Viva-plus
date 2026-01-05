@@ -2,50 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://new.umbrella-plus.com.ua/</loc>
-    <lastmod>2025-12-14T22:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/blog/</loc>
-    <lastmod>2025-12-14T22:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/blog/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/blog/peredaiotsa-li-alkogolizm-po-nasledstvy/</loc>
-    <lastmod>2025-12-14T22:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/blog/alkogolizm-vykhodnogo-dnya-kogda-otdykh-stanovitsya-problemoi/</loc>
-    <lastmod>2025-11-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/blog/sypryg-alkogolik-chto-delat/</loc>
-    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/blog/alkogolna-shizofrenia/</loc>
-    <lastmod>2025-10-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/blog/alkogolnaia-epilepsia/</loc>
-    <lastmod>2025-10-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/blog/kak-bistro-izbavitsa-ot-pohmelia/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://new.umbrella-plus.com.ua/homepage/1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -262,6 +218,18 @@
                 rel="alternate"
                 hreflang="ru-UA"
                 href="https://new.umbrella-plus.com.ua/tags/"
+                />
+  </url><url>
+    <loc>https://new.umbrella-plus.com.ua/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk-UA"
+                href="https://new.umbrella-plus.com.ua/uk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-UA"
+                href="https://new.umbrella-plus.com.ua/"
                 />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/1/</loc>
@@ -847,18 +815,6 @@
     <loc>https://new.umbrella-plus.com.ua/services/podshivka-ot-alkogolia/</loc>
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/kharkiv/podshivka_ot_alkogolizma_kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/directory/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/directory/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/directory/"
-                />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/services/reabilitacia-alkozavisimih/</loc>
   </url><url>

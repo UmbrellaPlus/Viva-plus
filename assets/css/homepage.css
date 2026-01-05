@@ -292,6 +292,67 @@ width: 25rem;
   }
 }
 
+/* Убедим лечиться блок */
+
+.convince{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem auto;
+  gap:0.5rem;
+}
+.convince-image{
+  background: var(--second);
+  position: relative;
+  height: 20rem;
+  width: 98%;
+  border-radius: 3rem;
+}
+.convince-image img{
+  height: 22rem;
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom:0;
+  margin: 0 auto;
+}
+.convince-content{
+  height: 20rem;
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: whitesmoke;
+  border-radius: 3rem;
+  padding:2rem;
+  border: 1px solid var(--second);
+  font-weight: 600;
+}
+.convince-content a{
+  background-color: var(--main);
+  color:white;
+  border-radius: 2rem;
+  padding:1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+@media (min-width: 1300px){
+  .convince{
+    max-width: 70%;
+    flex-direction: row;
+  }
+  .convince-image{
+    width: 50%;
+    justify-self: flex-start;
+    transform: translateY(2rem);
+  }
+  .convince-content{
+    width: 50%;
+    transform: translateX(-5rem);
+  }
+
+}
 /* Выезд нашего врача к вам домой (Из старой версии сайта, сначала ПК версия) */
 
 .home-doctor {
@@ -328,7 +389,7 @@ width: 25rem;
   object-fit: contain;
   width: 100%;
   margin-bottom: 1em;
-  box-shadow: 10px 10px 0px var(--blue);
+  box-shadow: 10px 10px 0px var(--main);
   border-radius: 10px 0px 0px 0px;
 }
 .home-doctor-container p {
