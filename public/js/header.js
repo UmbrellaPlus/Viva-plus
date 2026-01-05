@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.getElementById("hamburger");
   const navLinks = document.getElementById("nav-links");
   const body = document.body;
-  const submenuIds = ["filials", "services", "extra"];
+  const submenuIds = ["filials", "services", "extra", "narcology"];
 
   hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("active");

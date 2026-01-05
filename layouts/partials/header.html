@@ -37,13 +37,11 @@
     </a>
 
     <ul id="nav-links">
-      {{ range site.Menus.main }}
+      {{ range site.Menus.main}}
       <li>
         <a href="{{ .URL }}"
-           {{ if or (eq .Identifier "filials") (eq .Identifier "services") (eq .Identifier "extra") }}
         id="{{ .Identifier }}"
-        onclick="event.preventDefault();"
-        {{ end }}>
+        onclick="event.preventDefault();">
         {{ .Name }}
         {{ if .HasChildren }}
         <img
@@ -53,7 +51,6 @@
         />
         {{ end }}
         </a>
-
         {{ if .HasChildren }}
         <ul id="{{ .Identifier }}-list">
           {{ range .Children }}

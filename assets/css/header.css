@@ -21,11 +21,15 @@
 
 header {
   position: fixed;
-  width: 100%;
+  width: 98%;
+  left:50%;
+  transform: translate(-50%, 0%);
   align-items: center;
-  background-color: whitesmoke;
+  background-color: white;
+  box-shadow: 1px 1px 19px 0px #00000050;
   z-index: 100;
-  margin-top: 3.5em;
+  margin-top: 0.5rem;
+  border-radius: 20px;
 }
 
 .language-switcher {
@@ -76,14 +80,15 @@ nav a img {
   gap:1rem;
   width: 100%;
   align-items: center;
-  top: 7.5rem;
+  top: 5.5rem;
   left: 0;
   background-color: whitesmoke;
   z-index: 10000;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
   list-style: none;
   overflow-y: auto;
+  border-radius: 15px;
 }
 #nav-links.active {
   display: flex;
@@ -125,13 +130,27 @@ nav a img {
   margin-top: 1rem;
   margin-left:1rem;
 }
+#narcology-list {
+  display: none;
+  list-style: none;
+}
+#narcology-list.active {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-left:1rem;
+}
 @media (min-width: 1400px) {
+  header{
+      margin-top: 2.75rem;
+      max-width: 70%;
+  }
   #hamburger {
     display: none;
   }
   nav {
     justify-content: space-around;
-    max-width: 80%;
     margin: auto;
   }
   #nav-links {
@@ -144,7 +163,7 @@ nav a img {
   #nav-links li a:hover {
     transition: 0.1s;
     color: gray;
-    border-bottom: 3px solid var(--orange);
+    border-bottom: 3px solid var(--accent);
     border-radius: 2px;
   }
   #filials {
@@ -158,8 +177,9 @@ nav a img {
     position: absolute;
     background-color: whitesmoke;
     border-radius: 10px;
-    top: 2.75rem;
-    right: 15rem;
+    top: 3.25rem;
+    left:0;
+    width: 100%;
     padding: 1rem 8rem;
   }
   #services:hover + #services-list,
@@ -170,10 +190,14 @@ nav a img {
     position: absolute;
     background-color: whitesmoke;
     border-radius: 10px;
-    top: 2.75rem;
-    left: 15rem;
+    top: 3.25rem;
+    left:0;
+    width: 100%;
     padding: 1rem 8rem;
   }
+  #extra{
+  display: none;
+}
   #extra:hover + #extra-list,
   #extra-list:hover {
     display: flex;
@@ -182,8 +206,22 @@ nav a img {
     position: absolute;
     background-color: whitesmoke;
     border-radius: 10px;
-    top: 2.75rem;
-    right: 5rem;
+    top: 3.25rem;
+    width: 100%;
+    left:0;
+    padding: 1rem 8rem;
+  }
+  #narcology:hover + #narcology-list,
+  #narcology-list:hover {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    top: 3.25rem;
+    left:0; 
+    width: 100%;
     padding: 1rem 8rem;
   }
 }

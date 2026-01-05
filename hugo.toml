@@ -35,24 +35,33 @@ defaultContentLanguageInSubdir = false
         languageName = 'RU'
         weight = 10
             [[languages.ru.menus.main]]
-                name = 'Услуги'
-                pageRef = '/services'
+                name = 'Алкоголизм'
                 weight = 10
                 identifier = 'services'
                     [[languages.ru.menus.main]]
                         name = 'Лечение алкоголизма'
-                        pageRef = '/services'
+                        pageRef = '/lechenie-alcogolizma'
                         weight = 10
                         parent = 'services'
+                    [[languages.ru.menus.main]]
+                        name = 'Вывод из запоя'
+                        pageRef = '/vivod-iz-zapoya'
+                        weight = 20
+                        parent = 'services'
             [[languages.ru.menus.main]]
-                name = 'Врачи'
-                url = '/#doctors'
+                name = 'Наркомания'
                 weight = 20
-                identifier = 'doctors'
+                identifier = 'narcology'
+                    [[languages.ru.menus.main]]
+                    name = 'Детоксикация'
+                    pageRef = '/detox'
+                    weight = 10
+                    parent = 'narcology'
             [[languages.ru.menus.main]]
-                name = 'Блог'
-                pageRef = '/blog'
-                weight = 30
+                name = 'Кодирование'
+                pageRef = '/kodirovanie'
+                weight = 25
+                identifier = 'kodirovanie'
             [[languages.ru.menus.main]]
                 name = 'Филиалы'
                 weight = 40
@@ -63,10 +72,6 @@ defaultContentLanguageInSubdir = false
                         pageRef = '/kharkiv'
                         weight = 10
                         parent = 'filials'
-            [[languages.ru.menus.main]]
-                name = 'Отзывы'
-                url = '/reviews'
-                weight = 50
             [[languages.ru.menus.main]]
                 name = 'Дополнительно'
                 weight = 60
@@ -80,6 +85,11 @@ defaultContentLanguageInSubdir = false
                         name = 'Сотрудничество'
                         pageRef = '/collaboration'
                         weight = 30
+                        parent = 'extra'
+                    [[languages.ru.menus.main]]
+                        name = 'Отзывы'
+                        url = '/reviews'
+                        weight = 40
                         parent = 'extra'
     [languages.uk]
         contentDir = 'content/ua-lang'

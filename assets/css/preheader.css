@@ -1,12 +1,20 @@
 .preheader {
   position: fixed;
-  background: linear-gradient(160deg, #0B2A21 0%, #0F3D2E 50%, #1F6F54 100%);
-  width: 100%;
-  height: 3.5rem;
+  bottom:0.25rem;
+  background: whitesmoke;
+  border: 1px solid var(--accent);
+  width: 95%;
+  border-radius: 10px;
+  padding:0.75rem;
+  z-index: 100;
+  vertical-align: middle;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.preheader-centring{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  z-index: 100;
 }
 .preheader-hours{
   display: none;
@@ -22,28 +30,52 @@
   gap:1rem;
 }
 .preheader-numbers a{
-  color:whitesmoke;
+  color:black;
 }
 .preheader-numbers a img{
-  width: 20px;
+  width: 15px;
 filter: brightness(0) saturate(100%) invert(33%) sepia(63%) saturate(448%) hue-rotate(109deg) brightness(91%) contrast(90%);
+}
+.preheader-list{
+  display: none;
 }
 
 @media (min-width: 1000px){
+  .preheader-centring{
+    max-width: 70%;
+    margin: auto;
+  }
+  .preheader{
+    bottom:auto;
+    top:0;
+    width: 100%;
+    background: whitesmoke;
+    box-shadow: 10px 10px 10px whitesmoke;
+    border: none;
+  }
   .preheader-hours{
     display: block;
-    color:whitesmoke;
+    color:#222;
+    font-size: 12px;
+    font-weight: 600;
   }
-  .preheader-button{
+  .preheader-numbers a{
+    color:#222;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .preheader-list{
     display: block;
-    padding:0.5rem;
-    background-color: var(--orange);
-    border-radius: 5px;
-    color:white;
-    transition: 0.3s;
   }
-  .preheader-button:hover{
-    background-color: var(--orangedark);
-    transform: translateY(-1px);
+  .preheader-list ul{
+    display: flex;
+    list-style: none;
+  }
+  .preheader-list ul li{
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .preheader-list ul li a{
+    margin-right:0.5rem;
   }
 }
