@@ -1,6 +1,6 @@
 media: 
     input: assets/img
-    output: img
+    output: /img
 content:
   - name: kharkiv
     label: Харьков
