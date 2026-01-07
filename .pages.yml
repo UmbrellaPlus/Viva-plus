@@ -1,23 +1,48 @@
 media: 
+  name: images
+  label: Картинки
   input: /assets/img
   output: /img
 content:
-  - name: ru-posts
-    label: RU articles
+  - name: kharkiv
+    label: Харьков
     type: collection
     path: content/ru-lang/kharkiv
+    view:
+      fields: [tabTitle]
     fields:
-      - { name: tabTitle, lable: "Название вкладки", type: string }
-      - { name: title, lable: "Заголовок", type: sting }
-      - { name: description, lable: Opisanie, type: string }
-      - { name: image, lable: Kartinka, type: image }
-      - { name: imageText, lable: Opisanie kartinki, type: string }
-      - { name: ratingAvarage, lable: Otsenka stat'i, type: string }
-      - { name: rating, lable: Skolko chelovek otsenili, type: number }
+      - { name: tabTitle, label: Название вкладки в гугле, type: string }
+      - { name: title, label: Заголовок на странице, type: sting }
+      - { name: description, label: Описание под заголовком, type: string }
+      - { name: image, label: Картинка, type: image }
+      - { name: imageText, label: Описание картинки (нужно для СЕО), type: string }
+      - { name: ratingAvarage, label: Среднее оценивание статьи, type: string }
+      - { name: rating, label: Сколько человек оценили, type: number }
       - {
           name: reviewType,
-          lable: Tip otzivov,
+          label: Тип отзывов,
           type: select,
           options: { values: [alk-1, alk-2, kod-1, kod-2] },
         }
-      - { name: body, lable: Text, type: rich-text}
+      - { name: body, label: Основной текст, type: rich-text}
+  - name: services
+    label: Сервисы с главного меню
+    type: collection
+    path: content/ru-lang/services
+    view:
+      fields: [tabTitle]
+    fields:
+      - { name: tabTitle, label: Название вкладки в гугле, type: string }
+      - { name: title, label: Заголовок на странице, type: sting }
+      - { name: description, label: Описание под заголовком, type: string }
+      - { name: image, label: Картинка, type: image }
+      - { name: imageText, label: Описание картинки (нужно для СЕО), type: string }
+      - { name: ratingAvarage, label: Среднее оценивание статьи, type: string }
+      - { name: rating, label: Сколько человек оценили, type: number }
+      - {
+          name: reviewType,
+          label: Тип отзывов,
+          type: select,
+          options: { values: [alk-1, alk-2, kod-1, kod-2] },
+        }
+      - { name: body, label: Основной текст, type: rich-text}

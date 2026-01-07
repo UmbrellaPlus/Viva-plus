@@ -1,5 +1,4 @@
 ---
-layout: services
 tabTitle: Услуги лечение алкоголизма | web_site_name
 title: Лечение алкоголизма
 description: web_site_name
