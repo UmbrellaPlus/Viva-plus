@@ -1,7 +1,7 @@
 media: 
   name: images
   label: Картинки
-  #path: /img
+  path: /img
   # output: /img
 content:
   - name: kharkiv
