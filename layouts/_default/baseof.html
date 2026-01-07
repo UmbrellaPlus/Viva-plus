@@ -7,14 +7,11 @@
     {{partial "sticky-phone.html" . }} {{if in .Site.Language "ru"}} {{partial
     "preheader.html" . }} {{ else }} {{partial "preheader-ua.html" . }}{{end}}
     {{partial "header.html" . }}
+    <div class="padding-main"></div>
     <main>{{block "main".}}{{end}}</main>
     <div class="markdown">{{.Content}}</div>
     {{if in .Site.Language "ru"}} {{ partial "star-rating.html" .}}{{ else }} {{
-    partial "star-rating-ua.html" .}}{{end}}{{partial "local-reviews.html" .}}
-    <div style="text-align: center">
-      {{ if in .Site.Language "ru" }} {{partial "latest-news.html" .}} {{ else
-      }} {{partial "latest-news-ua.html" .}} {{ end }}
-    </div>
+    partial "star-rating-ua.html" .}}{{end}}
     {{if in .Site.Language "ru"}} {{partial "contacts.html" . }} {{ else }}
     {{partial "contacts-ua.html" . }} {{end}} {{partial "footer.html" . }}
   </body>

@@ -1,21 +1,23 @@
-media: assets/img
+media: 
+  input: assets/img
+  output: /public/img
 content:
   - name: ru-posts
     label: RU articles
     type: collection
     path: content/ru-lang/kharkiv
     fields:
-      - { name: tabTitle, lable: Название вкладки, type: string }
-      - { name: title, lable: Заголовок, type: sting }
-      - { name: description, lable: Описание, type: string }
-      - { name: image, lable: Картинка, type: image }
-      - { name: imageText, lable: Описание картинки, type: string }
-      - { name: ratingAvarage, lable: Оценка статьи, type: string }
-      - { name: rating, lable: Сколько человек оценили, type: number }
+      - { name: tabTitle, lable: "Название вкладки", type: string }
+      - { name: title, lable: "Заголовок", type: sting }
+      - { name: description, lable: Opisanie, type: string }
+      - { name: image, lable: Kartinka, type: image }
+      - { name: imageText, lable: Opisanie kartinki, type: string }
+      - { name: ratingAvarage, lable: Otsenka stat'i, type: string }
+      - { name: rating, lable: Skolko chelovek otsenili, type: number }
       - {
           name: reviewType,
-          lable: Тип отзывов,
+          lable: Tip otzivov,
           type: select,
           options: { values: [alk-1, alk-2, kod-1, kod-2] },
         }
-      - { name: body, lable: Текст статьи, type: rich-text}
+      - { name: body, lable: Text, type: rich-text}

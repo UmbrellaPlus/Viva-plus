@@ -9,13 +9,13 @@
   height: 17.5rem;
 }
 .index-hero-text h1{
-  color: #ffffff;
+  color: var(--whitetext);
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
 }
 .index-hero-text p{
-  color:#ffffff;
+  color:var(--whitetext);
   text-align: left;
   line-height: 1.5rem;
 }
@@ -39,38 +39,6 @@
 width: 25rem;
 }
 }
-
-/* Слайдер с акциями на главной странице */
-.discounts-block-slider{
-  width:72%;
-  margin:auto;
-  display:flex;
-  flex-direction: column;
-  padding: 1rem 0;
-}
-.discounts-block{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.discounts-image img{
-  width: 70vw;
-  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-}
-@media (max-width: 1000px) {
-  .discounts-block-slider{
-      width:95%;
-  }
-  .discounts-block{
-    flex-direction: row;
-  }
-  .discounts-image img{
-    width: 90vw
-  }
-
-}
-
 
 /* Бекграунд на последующие 2 блока */
 
@@ -178,7 +146,7 @@ width: 25rem;
   height: 3px;
   bottom: 10px;
   border-radius: 10px;
-  background-color: var(--second);
+  background-color: var(--primary);
   left: 0px;
 }
 .directions-block{
@@ -194,7 +162,7 @@ width: 25rem;
   height: 7rem;
 }
 .directions-text h3, .directions-text p{
-  color:white;
+  color:var(--whitetext);
   padding:0.5rem 1rem;
 }
 .directions-image{
@@ -207,13 +175,19 @@ width: 25rem;
   bottom:-25px;
   width: 12.5rem;
 }
-.directions-share-img{
+.directions-button{
   position: relative;
-  right: -25px;
-  bottom:-30px;
-  width: 8rem;
-  height: 8em;
-  align-self: end;
+  right: 0px;
+  bottom:0px;
+  align-self: flex-end;
+  color: var(--accent);
+  background-color: var(--background);
+  padding:1rem;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+.directions-button:hover{
+  background-color: var(--hover);
 }
 @media (min-width: 720px) {
   .directions{
@@ -235,7 +209,7 @@ width: 25rem;
 
 .benefits {
   height: auto;
-  background-color: var(--main);
+  background-color: var(--primary);
   padding: 5vh;
   max-width: 70vw;
   margin: auto;
@@ -306,7 +280,7 @@ width: 25rem;
   gap:0.5rem;
 }
 .convince-image{
-  background: var(--second);
+  background: var(--background);
   position: relative;
   height: 20rem;
   width: 98%;
@@ -329,16 +303,20 @@ width: 25rem;
   background: whitesmoke;
   border-radius: 3rem;
   padding:2rem;
-  border: 1px solid var(--second);
+  border: 1px solid var(--secondary);
   font-weight: 600;
 }
 .convince-content a{
-  background-color: var(--main);
+  background-color: var(--accent);
   color:white;
   border-radius: 2rem;
   padding:1rem;
   text-align: center;
   font-weight: 600;
+  transition: 0.3s;
+}
+.convince-content a:hover{
+  background-color: var(--hover);
 }
 
 @media (min-width: 1300px){

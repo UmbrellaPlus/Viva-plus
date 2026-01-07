@@ -1,6 +1,6 @@
 ---
-title: Viva Plus | Наркология
-homeHeader: Viva Plus | Центр лечения зависимостей
+title: web_site_name | Наркология
+homeHeader: web_site_name | Центр лечения зависимостей
 homeText1: ✔️ Леченим алкоголизм более 10 лет
 homeText2: ✔️ Более 10 филиалов по всей стране
 homeText3: ✔️ Срочный выезд нарколога на дом

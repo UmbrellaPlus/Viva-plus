@@ -34,7 +34,7 @@
 }
 .preheader-numbers a img{
   width: 15px;
-filter: brightness(0) saturate(100%) invert(33%) sepia(63%) saturate(448%) hue-rotate(109deg) brightness(91%) contrast(90%);
+  filter: brightness(0) saturate(100%) invert(33%) sepia(47%) saturate(3439%) hue-rotate(191deg) brightness(89%) contrast(101%);
 }
 .preheader-list{
   display: none;

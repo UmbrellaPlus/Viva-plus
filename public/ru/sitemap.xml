@@ -2,65 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://new.umbrella-plus.com.ua/homepage/1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/homepage/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/homepage/1/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/homepage/2/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/homepage/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/homepage/2/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/homepage/3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/homepage/3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/homepage/3/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/homepage/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/homepage/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/homepage/"
-                />
-  </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviews/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/reviews/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/reviews/"
-                />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/</loc>
     <xhtml:link
@@ -109,8 +51,6 @@
                 hreflang="ru-UA"
                 href="https://new.umbrella-plus.com.ua/reviewslocal/vitaminy/"
                 />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/vivod-iz-zapoia-na-domy-kharkiv/</loc>
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewslocal/alcoholism-type-1/</loc>
     <xhtml:link
@@ -220,18 +160,6 @@
                 href="https://new.umbrella-plus.com.ua/tags/"
                 />
   </url><url>
-    <loc>https://new.umbrella-plus.com.ua/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/"
-                />
-  </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -242,6 +170,18 @@
                 rel="alternate"
                 hreflang="ru-UA"
                 href="https://new.umbrella-plus.com.ua/reviewsgoogle/1/"
+                />
+  </url><url>
+    <loc>https://new.umbrella-plus.com.ua/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk-UA"
+                href="https://new.umbrella-plus.com.ua/uk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-UA"
+                href="https://new.umbrella-plus.com.ua/"
                 />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewslocal/kodirovanie-type-2/2/</loc>
@@ -664,12 +604,6 @@
                 href="https://new.umbrella-plus.com.ua/reviewslocal/vitaminy/3/"
                 />
   </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/vivod-iz-zapoia-umbrellaplus/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/vivod-iz-zapoia-na-domy-umbrellaplus/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/vivod-iz-zapoia-kharkiv/</loc>
-  </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/6/</loc>
     <xhtml:link
                 rel="alternate"
@@ -694,141 +628,15 @@
                 href="https://new.umbrella-plus.com.ua/reviewsgoogle/3/"
                 />
   </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/detox-ot-amfetamina-kharkiv/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/kharkiv/detox-ot-amfetamina-kharkiv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/kharkiv/detox-ot-amfetamina-kharkiv/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/kap-ot-kokaina-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/detox-ot-liriki-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/detox-ot-lsd-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/detox-ot-opiodov-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/detox-ot-soli-kharkiv/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/kharkiv/detox-ot-soli-kharkiv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/kharkiv/detox-ot-soli-kharkiv/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/detox-ot-mdma-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/kapelnica-ot-alkogolia-umbrellaplus/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/kapelnica_ot_alkogola_na_domy_umbrellaplus/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/kapelnica_ot_alkogola_na_domy_kharkiv/</loc>
-  </url><url>
     <loc>https://new.umbrella-plus.com.ua/kharkiv/kapelnica_ot_alkogola_kharkiv/</loc>
   </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/kap-ot-nark-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/kodirovka-ot-alkogolia-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/kodirovanie-ot-alkogolizma-lazerom/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/kod-po-metody-dovjenko-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/kodirovka-ot-alkogolia-disulfiram-umbrellaplus/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/kodirovka-ot-alkogola-disulfiram-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/kodirovka-ot-alkogolizma-espiarl-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/kodirovka-ot-alkogolizma-espiarl-umbrellaplus/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/kapli-midzo/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/kodirovanie-po-dovgenko/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/konsultacia-narkologa/</loc>
-  </url><url>
     <loc>https://new.umbrella-plus.com.ua/services/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/services/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/services/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/lechenie-alkogolizma/</loc>
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/kharkiv/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/kharkiv/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/kharkiv/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/lechenie-alk-y-voenih/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/lechenie-alkogolizma-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/lechenie-jenskogo-alkogolizma-umbrellaplus/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/lechenie-jenskogo-alkogolizma-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/lechenie-nark-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/lechenie-pivnogo-alkogolizma-umbrellaplus/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/lechenie-pivnogo-alkogolizma-kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/vizov-narkologa-kharkov/</loc>
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/about-us/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/about-us/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/about-us/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/podshivka-ot-alkogolia/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/kharkiv/podshivka_ot_alkogolizma_kharkiv/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/reabilitacia-alkozavisimih/</loc>
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/contacts/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/contacts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/contacts/"
-                />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewslocal/kodirovanie-type-1/2/</loc>
     <xhtml:link
@@ -843,18 +651,6 @@
                 />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/collaboration/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/collaboration/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/collaboration/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/kodirovka-ot-alkogolia-umbrellaplus/</loc>
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/5/</loc>
     <xhtml:link
@@ -867,7 +663,5 @@
                 hreflang="ru-UA"
                 href="https://new.umbrella-plus.com.ua/reviewsgoogle/5/"
                 />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/services/narkolog/</loc>
   </url>
 </urlset>
