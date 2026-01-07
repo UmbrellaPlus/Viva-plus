@@ -158,18 +158,6 @@
                 href="https://new.umbrella-plus.com.ua/uk/tags/"
                 />
   </url><url>
-    <loc>https://new.umbrella-plus.com.ua/uk/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/"
-                />
-  </url><url>
     <loc>https://new.umbrella-plus.com.ua/uk/reviewsgoogle/1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -180,6 +168,18 @@
                 rel="alternate"
                 hreflang="uk-UA"
                 href="https://new.umbrella-plus.com.ua/uk/reviewsgoogle/1/"
+                />
+  </url><url>
+    <loc>https://new.umbrella-plus.com.ua/uk/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-UA"
+                href="https://new.umbrella-plus.com.ua/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk-UA"
+                href="https://new.umbrella-plus.com.ua/uk/"
                 />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/uk/reviewslocal/kodirovanie-type-2/2/</loc>
