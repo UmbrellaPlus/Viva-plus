@@ -2,7 +2,7 @@
 tabTitle: tabTitle | web_site_name
 title: title
 description: web_site_name
-image: /
+image: /img/services/ai1.jpg
 imageText: imageText web_site_name
 ratingAvarage: 5/5
 rating: '1'

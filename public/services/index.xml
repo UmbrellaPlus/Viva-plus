@@ -1,102 +1,88 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Лечение алкоголизма on Viva Plus</title>
-    <link>http://localhost:1313/services/</link>
-    <description>Recent content in Лечение алкоголизма on Viva Plus</description>
+    <title>title on Viva Plus</title>
+    <link>https://new.umbrella-plus.com.ua/services/</link>
+    <description>Recent content in title on Viva Plus</description>
     <generator>Hugo</generator>
     <language>ru-UA</language>
-    <atom:link href="http://localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://new.umbrella-plus.com.ua/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>http://localhost:1313/services/detox-nalbufin/</link>
+      <title>вывод из запоя</title>
+      <link>https://new.umbrella-plus.com.ua/services/vivod-iz-zapoya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/detox-nalbufin/</guid>
-      <description></description>
+      <guid>https://new.umbrella-plus.com.ua/services/vivod-iz-zapoya/</guid>
+      <description>&lt;h2 id=&#34;лечение-алкоголизма&#34;&gt;лечение алкоголизма&lt;/h2&gt;&#xA;&lt;p&gt;текст&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/services/kapelnitsya-ot-alkogolya/</link>
+      <title>Детоксикация Кокаин</title>
+      <link>https://new.umbrella-plus.com.ua/services/detox-kokain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/kapelnitsya-ot-alkogolya/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/services/kodirovanie-disulfiram/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/kodirovanie-disulfiram/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/services/kodirovanie-midzo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/kodirovanie-midzo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/services/kodirovanie-teturam/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/kodirovanie-teturam/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/services/lechenie-alkogolizma/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/lechenie-alkogolizma/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/services/lechenie-narkomanii/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/lechenie-narkomanii/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/services/lechenie-pivnogo-alkogolisma/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/lechenie-pivnogo-alkogolisma/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/services/narkolog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/narkolog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/services/vivod-iz-zapoya/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/vivod-iz-zapoya/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>kokain</title>
-      <link>http://localhost:1313/services/detox-kokain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/detox-kokain/</guid>
+      <guid>https://new.umbrella-plus.com.ua/services/detox-kokain/</guid>
       <description>&lt;h2 id=&#34;web_site_name&#34;&gt;web_site_name&lt;/h2&gt;</description>
     </item>
     <item>
-      <title>lyrica</title>
-      <link>http://localhost:1313/services/detox-lyrica/</link>
+      <title>Детоксикация Лирика</title>
+      <link>https://new.umbrella-plus.com.ua/services/detox-lyrica/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/detox-lyrica/</guid>
+      <guid>https://new.umbrella-plus.com.ua/services/detox-lyrica/</guid>
       <description>&lt;h2 id=&#34;web_site_name&#34;&gt;web_site_name&lt;/h2&gt;</description>
     </item>
     <item>
-      <title>metadon</title>
-      <link>http://localhost:1313/services/detox-metadon/</link>
+      <title>Детоксикация метадон</title>
+      <link>https://new.umbrella-plus.com.ua/services/detox-metadon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/detox-metadon/</guid>
+      <guid>https://new.umbrella-plus.com.ua/services/detox-metadon/</guid>
       <description>&lt;h2 id=&#34;web_site_name&#34;&gt;web_site_name&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Детоксикация налбуфин</title>
+      <link>https://new.umbrella-plus.com.ua/services/detox-nalbufin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://new.umbrella-plus.com.ua/services/detox-nalbufin/</guid>
+      <description>&lt;h2 id=&#34;налбуфин&#34;&gt;налбуфин&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>капельница от алкоголя</title>
+      <link>https://new.umbrella-plus.com.ua/services/kapelnitsya-ot-alkogolya/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://new.umbrella-plus.com.ua/services/kapelnitsya-ot-alkogolya/</guid>
+      <description>&lt;h2 id=&#34;капельница-от-алкоголя&#34;&gt;капельница от алкоголя&lt;/h2&gt;&#xA;&lt;p&gt;текст&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>кодирование дисульфирам</title>
+      <link>https://new.umbrella-plus.com.ua/services/kodirovanie-disulfiram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://new.umbrella-plus.com.ua/services/kodirovanie-disulfiram/</guid>
+      <description>&lt;h2 id=&#34;кодирование-дисульфирам&#34;&gt;кодирование дисульфирам&lt;/h2&gt;&#xA;&lt;p&gt;текст&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>кодирование мидзо</title>
+      <link>https://new.umbrella-plus.com.ua/services/kodirovanie-midzo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://new.umbrella-plus.com.ua/services/kodirovanie-midzo/</guid>
+      <description>&lt;h2 id=&#34;кодирование-мидзо&#34;&gt;кодирование мидзо&lt;/h2&gt;&#xA;&lt;p&gt;текст&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>кодирование тетурам</title>
+      <link>https://new.umbrella-plus.com.ua/services/kodirovanie-teturam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://new.umbrella-plus.com.ua/services/kodirovanie-teturam/</guid>
+      <description>&lt;h2 id=&#34;кодирование-тетурам&#34;&gt;кодирование тетурам&lt;/h2&gt;&#xA;&lt;p&gt;текст&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>лечение алкоголизма</title>
+      <link>https://new.umbrella-plus.com.ua/services/lechenie-alkogolizma/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://new.umbrella-plus.com.ua/services/lechenie-alkogolizma/</guid>
+      <description>&lt;h2 id=&#34;лечение-алкоголизма&#34;&gt;лечение алкоголизма&lt;/h2&gt;&#xA;&lt;p&gt;текст&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>лечение наркомании</title>
+      <link>https://new.umbrella-plus.com.ua/services/lechenie-narkomanii/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://new.umbrella-plus.com.ua/services/lechenie-narkomanii/</guid>
+      <description>&lt;h2 id=&#34;лечение-наркомании&#34;&gt;лечение наркомании&lt;/h2&gt;&#xA;&lt;p&gt;текст&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
