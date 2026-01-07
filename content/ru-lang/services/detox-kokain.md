@@ -1,6 +1,6 @@
 ---
 tabTitle: kokain | web_site_name
-title: kokain
+title: Детоксикация Кокаин
 description: web_site_name
 image: /img/services/ai1.jpg
 imageText: kokain web_site_name

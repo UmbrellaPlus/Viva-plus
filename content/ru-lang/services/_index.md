@@ -1,9 +1,9 @@
 ---
-tabTitle: Услуги лечение алкоголизма | web_site_name
-title: Лечение алкоголизма
+tabTitle: tabTitle | web_site_name
+title: title
 description: web_site_name
-image: /img/services/ai1.jpg
-imageText: Лечение алкоголизма web_site_name
+image: /
+imageText: imageText web_site_name
 ratingAvarage: 5/5
 rating: '1'
 ---

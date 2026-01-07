@@ -1,6 +1,6 @@
 ---
 tabTitle: lyrica | web_site_name
-title: lyrica
+title: Детоксикация Лирика
 description: web_site_name
 image: /img/services/ai1.jpg
 imageText: lyrica web_site_name

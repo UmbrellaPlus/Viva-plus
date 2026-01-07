@@ -11,7 +11,7 @@ collections:
   - name: kharkiv
     label: Харьков
     type: collection
-    path: content/ru-lang/kharkiv
+    folder: /content/ru-lang/kharkiv
     view:
       fields: [title]
     fields:

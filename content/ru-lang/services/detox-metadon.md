@@ -1,6 +1,6 @@
 ---
 tabTitle: metadon | web_site_name
-title: metadon
+title: Детоксикация метадон
 description: web_site_name
 image: /img/services/ai1.jpg
 imageText: metadon web_site_name
