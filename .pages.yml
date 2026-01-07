@@ -1,12 +1,10 @@
 media: 
   - name: imgServices
     label: Картинки - Сервисы
-    input: /assets/img/services
-    output: /img/services
+    path: /assets/img/services
   - name: imgKharkiv
     label: Картинки - Харьков
-    input: /assets/img/kharkov
-    output: /img/kharkov
+    path: /assets/img/kharkov
 content:
   - name: kharkiv
     label: Харьков
