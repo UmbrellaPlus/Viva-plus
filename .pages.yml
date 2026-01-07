@@ -1,8 +1,8 @@
 media: 
   name: images
   label: Картинки
-  path: /img
-  # output: /img
+  input: /assets/img
+  output: /img
 content:
   - name: kharkiv
     label: Харьков
