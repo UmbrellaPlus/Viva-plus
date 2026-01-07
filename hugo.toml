@@ -40,7 +40,7 @@ defaultContentLanguageInSubdir = false
                 identifier = 'services'
                     [[languages.ru.menus.main]]
                         name = 'Лечение алкоголизма'
-                        pageRef = 'lechenie-alcogolizma'
+                        pageRef = 'lechenie-alkogolizma'
                         weight = 10
                         parent = 'services'
                     [[languages.ru.menus.main]]
@@ -49,19 +49,9 @@ defaultContentLanguageInSubdir = false
                         weight = 20
                         parent = 'services'
                     [[languages.ru.menus.main]]
-                        name = 'Экстренный вызов нарколога'
-                        pageRef = 'nargolog'
-                        weight = 30
-                        parent = 'services'
-                    [[languages.ru.menus.main]]
                         name = 'Капельница от алкоголя'
                         pageRef = 'kapelnitsya-ot-alkogolya'
                         weight = 40
-                        parent = 'services'
-                    [[languages.ru.menus.main]]
-                        name = 'Лечение пивного алкоголизма'
-                        pageRef = 'lechenie-pivnogo-alkogolizma'
-                        weight = 50
                         parent = 'services'
             [[languages.ru.menus.main]]
                 name = 'Наркомания'
@@ -89,7 +79,7 @@ defaultContentLanguageInSubdir = false
                         parent = 'narcology'
                     [[languages.ru.menus.main]]
                         name = 'Детоксикация от лирики'
-                        pageRef = 'detox-lirika'
+                        pageRef = 'detox-lyrika'
                         weight = 50
                         parent = 'narcology'
             [[languages.ru.menus.main]]

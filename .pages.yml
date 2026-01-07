@@ -33,6 +33,7 @@ content:
     label: Сервисы с главного меню
     type: collection
     path: content/ru-lang/services
+    exclude: [_index.md]
     view:
       fields: [title]
     fields:
