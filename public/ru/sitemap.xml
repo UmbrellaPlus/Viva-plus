@@ -88,18 +88,6 @@
                 href="https://new.umbrella-plus.com.ua/categories/"
                 />
   </url><url>
-    <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/4/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/reviewsgoogle/4/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/reviewsgoogle/4/"
-                />
-  </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewslocal/kodirovanie-type-1/</loc>
     <xhtml:link
                 rel="alternate"
@@ -124,6 +112,18 @@
                 href="https://new.umbrella-plus.com.ua/reviewslocal/kodirovanie-type-2/"
                 />
   </url><url>
+    <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/1/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk-UA"
+                href="https://new.umbrella-plus.com.ua/uk/reviewsgoogle/1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-UA"
+                href="https://new.umbrella-plus.com.ua/reviewsgoogle/1/"
+                />
+  </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/2/</loc>
     <xhtml:link
                 rel="alternate"
@@ -134,6 +134,18 @@
                 rel="alternate"
                 hreflang="ru-UA"
                 href="https://new.umbrella-plus.com.ua/reviewsgoogle/2/"
+                />
+  </url><url>
+    <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/3/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="uk-UA"
+                href="https://new.umbrella-plus.com.ua/uk/reviewsgoogle/3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru-UA"
+                href="https://new.umbrella-plus.com.ua/reviewsgoogle/3/"
                 />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/reviewslocal/</loc>
@@ -158,18 +170,6 @@
                 rel="alternate"
                 hreflang="ru-UA"
                 href="https://new.umbrella-plus.com.ua/tags/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/1/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/reviewsgoogle/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/reviewsgoogle/1/"
                 />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/</loc>
@@ -604,30 +604,6 @@
                 href="https://new.umbrella-plus.com.ua/reviewslocal/vitaminy/3/"
                 />
   </url><url>
-    <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/6/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/reviewsgoogle/6/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/reviewsgoogle/6/"
-                />
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/3/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/reviewsgoogle/3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/reviewsgoogle/3/"
-                />
-  </url><url>
     <loc>https://new.umbrella-plus.com.ua/kharkiv/kapelnica_ot_alkogola_kharkiv/</loc>
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/services/</loc>
@@ -651,17 +627,5 @@
                 />
   </url><url>
     <loc>https://new.umbrella-plus.com.ua/collaboration/</loc>
-  </url><url>
-    <loc>https://new.umbrella-plus.com.ua/reviewsgoogle/5/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="uk-UA"
-                href="https://new.umbrella-plus.com.ua/uk/reviewsgoogle/5/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru-UA"
-                href="https://new.umbrella-plus.com.ua/reviewsgoogle/5/"
-                />
   </url>
 </urlset>

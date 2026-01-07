@@ -1,6 +1,6 @@
 media: 
   input: assets/img
-  output: /public/img
+  output: public/img
 content:
   - name: ru-posts
     label: RU articles

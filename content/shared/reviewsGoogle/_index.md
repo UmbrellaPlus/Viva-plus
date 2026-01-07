@@ -1,6 +1,6 @@
 ---
 title:
 layout: reviews
-reviewsAmt: '57'
-reviewsRate: '4.8'
+reviewsAmt: '3'
+reviewsRate: '5'
 ---

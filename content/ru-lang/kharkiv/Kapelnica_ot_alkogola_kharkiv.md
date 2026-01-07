@@ -5,7 +5,7 @@ description: Помощь при похмелье круглосуточно!
 image: /img/kharkov/ai2.jpg
 imageText: Капельница от алкоголя Харьков
 ratingAvarage: 4.98/5
-rating: '5912'
+rating: '1'
 reviewType: alk-2
 ---
 
