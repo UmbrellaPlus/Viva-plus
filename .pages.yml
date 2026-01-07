@@ -1,15 +1,15 @@
 media: 
   name: images
   label: Картинки
-  input: /assets/img
-  output: /img
+  #path: /img
+  # output: /img
 content:
   - name: kharkiv
     label: Харьков
     type: collection
     path: content/ru-lang/kharkiv
     view:
-      fields: [tabTitle]
+      fields: [title]
     fields:
       - { name: tabTitle, label: Название вкладки в гугле, type: string }
       - { name: title, label: Заголовок на странице, type: sting }
@@ -30,7 +30,7 @@ content:
     type: collection
     path: content/ru-lang/services
     view:
-      fields: [tabTitle]
+      fields: [title]
     fields:
       - { name: tabTitle, label: Название вкладки в гугле, type: string }
       - { name: title, label: Заголовок на странице, type: sting }
