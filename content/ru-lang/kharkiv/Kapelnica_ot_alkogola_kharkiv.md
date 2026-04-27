@@ -2,7 +2,7 @@
 tabTitle: Капельница от алкоголя Харьков | web_site_name | От 2199 грн
 title: Капельница от алкоголя Харьков
 description: Помощь при похмелье круглосуточно!
-image: /img/kharkov/ai2.jpg
+image: /img/kharkov/ai2.png
 imageText: Капельница от алкоголя Харьков
 ratingAvarage: 4.98/5
 rating: '1'
